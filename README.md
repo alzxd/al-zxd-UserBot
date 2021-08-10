@@ -15,7 +15,7 @@
 
 
 <p align="center">
-   <a href="https://github.com/vckyou/Geez-UserBot"><img src="https://www.linkpicture.com/q/Desain-tanpa-judul-5.png" alt="Geez Projects" width=400px></a>
+   <a href="https://github.com/alzxd/al-zxd-UserBot"><img src="https://www.linkpicture.com/q/Desain-tanpa-judul-5.png" alt="Geez Projects" width=400px></a>
    <br>
    <br>
 </p>
