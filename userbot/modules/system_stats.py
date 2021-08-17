@@ -229,17 +229,17 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"\n__**{GEEZ_TEKS_KUSTOM}**__\n"
-        f"**╭───────────────────**\n"
-        f"**├[• 🤴 Al-zxd Owner** \n"
-        f"├[•   : `{DEFAULTUSER}` \n"
-        f"**├[• 🔎 Username** \n"
-        f"├[•   : `@{user.username}` \n"
-        f"├──────────────────\n"
-        f"├[•⚙️ `Telethon :`Ver {version.__version__} \n"
-        f"├[•🐍 `Python   :`Ver {python_version()} \n"
-        f"├[•👾 `Bot Ver  :`{BOT_VER} \n"
-        f"├[•📂 `Modules  :`{len(modules)} \n"
-        f"╰─────────────────")
+        f"**╭┈─╼════════════════╾─┈╮**\n"
+        f"**│▶   Al-zxd Owner** \n"
+        f"│▶    : `{DEFAULTUSER}` \n"
+        f"**│▶   Username** \n"
+        f"│▶    : `@{user.username}` \n"
+        f"╭┈─╼════════════════╾─┈╯\n"
+        f"│▶  `Telethon :`Ver {version.__version__} \n"
+        f"│▶  `Python   :`Ver {python_version()} \n"
+        f"│▶  `Bot Ver  :`{BOT_VER} \n"
+        f"│▶  `Modules  :`{len(modules)} \n"
+        f"╰┈──────────────────┈─➤")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -265,16 +265,16 @@ async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**ㅤㅤㅤㅤ 👻ΛＬ-ZXD - ＰＲＯＪＥＣＴ👻**\n"
-        f"╔══════════╬════╬══════════╗ \n"
-        f"╟⟩⟩ 🤴 • `ᴏᴡɴᴇʀ    :`[ΛＬ-ZXD](t.me/boyvoyj)             ㅤ ║\n"
-        f"╟⟩⟩ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10            ║\n"
-        f"╟⟩⟩ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ  :`v.{version.__version__}                ㅤㅤ  ║\n"
-        f"╟⟩⟩ 🐍 • `ᴘʏᴛʜᴏɴ.   :`v.{python_version()} ㅤㅤㅤㅤ         ║\n"
-        f"╟⟩⟩ 👾 • `ʙᴏᴛ      :`v.{BOT_VER}                ㅤㅤㅤ ║\n"
-        f"╟⟩⟩ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} ㅤㅤㅤㅤㅤㅤㅤ   ║\n"
-        f"╚══════════╬════╬══════════╝ \n"
-        f"🔰 : [𝗥𝗘𝗣𝗢-𝘼𝙇-𝙯𝙭𝙙](https://github.com/alzxd/al-zxd-UserBot)\n👥 :\n👤 : [𝗢𝗪𝗡𝗘𝗥](t.me/boyvoyj)\n"
+        f"**ㅤㅤㅤㅤ ⇱ 𝐀𝐋-𝐙𝐗𝐃 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 ⇲**\n"
+        f"╔┈─╼════════════════╾─┈╗ \n"
+        f"╟ ▶ `ᴏᴡɴᴇʀ    :`[ΛＬ-ZXD](t.me/boyvoyj)             ㅤ ║\n"
+        f"╟ ▶ `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10            ║\n"
+        f"╟ ▶ `ᴛᴇʟᴇᴛʜᴏɴ  :`v.{version.__version__}                ㅤㅤ  ║\n"
+        f"╟ ▶ `ᴘʏᴛʜᴏɴ.   :`v.{python_version()} ㅤㅤㅤㅤ         ║\n"
+        f"╟ ▶ `ʙᴏᴛ      :`v.{BOT_VER}                ㅤㅤㅤ ║\n"
+        f"╟ ▶ `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} ㅤㅤㅤㅤㅤㅤㅤ   ║\n"
+        f"╚┈─╼════════════════╾─┈╝ \n"
+        f"▶ : [𝗥𝗘𝗣𝗢-𝘼𝙇-𝙯𝙭𝙙](https://github.com/alzxd/al-zxd-UserBot)\n👥 :\n👤 : [𝗢𝗪𝗡𝗘𝗥](t.me/boyvoyj)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -300,8 +300,8 @@ async def amireallyalive(alive):
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__Sabarkentot.__")
-    await alive.edit("__Sabarkentot..__")
+    await alive.edit("__Sabar kentot.__")
+    await alive.edit("__Sabar kentot..__")
     await alive.edit("__Reconnect.__")
     await alive.edit("__Reconnect..__")
     await alive.edit("__Connecting...__")
@@ -310,20 +310,20 @@ async def redis(alive):
     await alive.edit("🎃")
     await asyncio.sleep(2)
     output = (
-        f"╔════════╬════╬════════╗\n"
-        f"╟👻ΛL-ZXD - ＰＲＯＪＥＣＴ👻\n"
-        f"╚════════╬════╬════════╝ \n"
-        f" 🏵 `Name     :` {DEFAULTUSER} \n"
-        f" 🏵 `Username :` @{user.username} \n"
-        f" 🏵 `Telethon :` Ver {version.__version__} \n"
-        f" 🏵 `Python   :` Ver {python_version()} \n"
-        f" 🏵 `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f" 🏵 `Bot Ver  :` {BOT_VER} \n"
-        f" 🏵 `Modules  :` {len(modules)} Modules \n"
-        f"╔════════╬════╬════════╗ \n"
+        f"╔┈─╼════════════════╾─┈╗\n"
+        f"╟ ⇱ 𝐀𝐋-𝐙𝐗𝐃 𝐏𝐑𝐎𝐉𝐄𝐂𝐓 ⇲\n"
+        f"╚┈─╼════════════════╾─┈╝ \n"
+        f" 🎀 `Name     :` {DEFAULTUSER} \n"
+        f" 🎀 `Username :` @{user.username} \n"
+        f" 🎀 `Telethon :` Ver {version.__version__} \n"
+        f" 🎀 `Python   :` Ver {python_version()} \n"
+        f" 🎀 `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
+        f" 🎀 `Bot Ver  :` {BOT_VER} \n"
+        f" 🎀 `Modules  :` {len(modules)} Modules \n"
+        f"╔┈─╼════════════════╾─┈╗ \n"
         f"╟[𝗥𝗲𝗽𝗼](https://github.com/al-zxd-UserBot)  |  "
         f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/alii.cvj)\n"
-        f"╚════════╬════╬════════╝")
+        f"╚┈─╼════════════════╾─┈╝")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
