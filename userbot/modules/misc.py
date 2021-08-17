@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[⚡ Geez-Project Repo](https://github.com/vckyou/Geez-UserBot/blob/Geez-UserBot/README.md)"
+        "\n[⚡ Al-zxd-Project Repo](https://github.com/alzxd/al-zxd-UserBot/blob/al-zxd-UserBot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -110,13 +110,13 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "╭‒─‒──────────‒─‒╮\n"
+        "╭┈─╼════════════════╾─┈╮ \n"
         "│                   ʀᴇᴘᴏ\n"
-        "│       [⚡Geez-Project⚡](https://github.com/Vckyou/Geez-UserBot)\n"
-        "├‒─‒──────────‒─‒╯\n"
-        "│🔰 **ᴏᴡɴᴇʀ :** [Geez](t.me/VckyouuBitch)\n"
-        "╰‒─‒──────────‒─‒╯\n"
-        "  𝗟𝗶𝗰𝗲𝗻𝘀𝗲 : [GPL-3.0 License](https://github.com/Vckyou/Geez-UserBot/blob/Geez-UserBot/LICENSE)"
+        "│       [⚡Al-zxd-Project⚡](https://github.com/Vckyou/Geez-UserBot)\n"
+        "╭┈─╼════════════════╾─┈╯\n"
+        "│🔰 **ᴏᴡɴᴇʀ :** [Alzxd](t.me/boyvoyj)\n"
+        "╰┈──────────────────┈─➤\n"
+        "  𝗟𝗶𝗰𝗲𝗻𝘀𝗲 : [GPL-3.0 License](https://github.com/alzxd/al-zxd-UserBot/blob/al-zxd-UserBot/LICENSE)"
     )
 
 
