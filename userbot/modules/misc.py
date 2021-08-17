@@ -112,7 +112,7 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         "╭┈─╼════════════════╾─┈╮ \n"
         "│                   ʀᴇᴘᴏ\n"
-        "│       [⚡Al-zxd-Project⚡](https://github.com/Vckyou/Geez-UserBot)\n"
+        "│       [⚡Al-zxd-Project⚡](https://github.com/alzxd/al-zxd-UserBot)\n"
         "╭┈─╼════════════════╾─┈╯\n"
         "│🔰 **ᴏᴡɴᴇʀ :** [Alzxd](t.me/boyvoyj)\n"
         "╰┈──────────────────┈─➤\n"
