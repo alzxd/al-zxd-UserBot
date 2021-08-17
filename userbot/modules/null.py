@@ -2,19 +2,19 @@ from userbot.events import register
 from time import sleep
 
 
-@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
+@register(outgoing=True, pattern='^.Ali(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku Geez`")
+    await typew.edit("`Hai Perkenalkan Namaku ali`")
     sleep(3)
-    await typew.edit("`19 Tahun`")
+    await typew.edit("`22 Tahun`")
     sleep(1)
-    await typew.edit("`Tinggal Di Tangerang, Salam Kenal:)`")
+    await typew.edit("`Tinggal Di Cibubur, Salam Kenal:)`")
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.sayang(?: |$)(.*)')
+@register(outgoing=True, pattern='^.salma(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
@@ -22,7 +22,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Aku Sayang Kamu`")
     sleep(1)
-    await typew.edit("`I LOVE YOU 💞`")
+    await typew.edit("`I LOVE YOU SALMA 💞`")
 # Create by myself @localheart
 
 
@@ -35,4 +35,16 @@ async def typewriter(typew):
     await typew.edit("`Tetaplah Bernapas`")
     sleep(1)
     await typew.edit("`Dan Selalu Bersyukur`")
+# Create by myself @localheart
+
+
+@register(outgoing=True, pattern='^.crips(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("`𝐒𝐀𝐋𝐀𝐌 𝐃𝐀𝐑𝐈 𝐊𝐀𝐌𝐈 𝐋𝐀 𝐑𝐄𝐆𝐈𝐎𝐍𝐄 𝐂𝐑𝐈𝐏𝐒`")
+    sleep(3)
+    await typew.edit("`𝐈𝐍𝐓𝐈𝐍𝐘𝐀 𝐋𝐎 𝐒𝐄𝐌𝐔𝐀 𝐍𝐆𝐄𝐍𝐓𝐎𝐓`")
+    sleep(1)
+    await typew.edit("`𝐂𝐔𝐌𝐀 𝐂𝐑𝐈𝐏𝐒 𝐘𝐀𝐍𝐆 𝐊𝐄𝐑𝐄𝐍 𝐆𝐀 𝐀𝐃𝐀 𝐎𝐁𝐀𝐓!!`")
 # Create by myself @localheart
